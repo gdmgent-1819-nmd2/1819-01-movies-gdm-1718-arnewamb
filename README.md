@@ -1,11 +1,11 @@
-1819-01-movies-gdm-1718-arnewamb 
-All About Movies
+1819-01-movies-gdm-1718-arnewamb
+# All About Movies
 ===========
 
 Informatie
 ----------
 New Media Design 2
-Academiejaar 2018-19 
+Academiejaar 2018-19
 Arne Wambeke
 
 Crossmedia-ontwerp  
@@ -21,8 +21,8 @@ Watch the Mobile First web application
 * https://gdmgent-1819-nmd2.github.io/1819-01-movies-gdm-1718-arnewamb/
 ```
 
-Used technologies 
+Used technologies
 ----------
 * HTML
 * CSS
-* Sass 
+* Sass
