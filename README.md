@@ -26,3 +26,4 @@ Used technologies
 * HTML
 * CSS
 * Sass
+* Javascript
