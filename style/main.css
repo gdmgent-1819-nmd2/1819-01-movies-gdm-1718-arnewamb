@@ -1,0 +1,229 @@
+.right {
+  text-align: right;
+}
+
+.deskText {
+  padding: 0 20px;
+}
+
+.deskText .row h4 {
+  padding-left: 40px;
+}
+
+/* custom styling */
+.main-container {
+  /* row styling */
+}
+
+.main-container .titleRow {
+  margin-top: 200px;
+}
+
+.main-container .titleRow .workLink {
+  padding-top: 40px;
+}
+
+.main-container .row_movies {
+  margin-top: 250px;
+}
+
+.main-container .row_movies .accordion {
+  margin-top: 150px;
+  /* card styling */
+}
+
+.main-container .row_movies .accordion .card .desktopText {
+  width: 90%;
+}
+
+@media (min-width: 992px) {
+  .main-container .row_movies .accordion .card .desktopText {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-container .row_movies .accordion .card .desktopText {
+    width: 79%;
+  }
+}
+
+@media (min-width: 576px) {
+  .main-container .row_movies .accordion .card .card-header {
+    display: visible;
+  }
+}
+
+@media (min-width: 769px) {
+  .main-container .row_movies .accordion .card .card-header {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .main-container .row_movies .accordion .card .card-body {
+    display: visible;
+  }
+}
+
+@media (min-width: 769px) {
+  .main-container .row_movies .accordion .card .card-body {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .main-container .row_movies .itunes-buy {
+    position: relative;
+  }
+}
+
+@media (min-width: 769px) {
+  .main-container .row_movies .itunes-buy {
+    position: unset;
+  }
+}
+
+.main-container .row_movies .itunes-buy .itunes-buy-logo {
+  position: absolute;
+  bottom: 0;
+}
+
+@media (min-width: 769px) {
+  .main-container .row_movies .itunes-buy .itunes-buy-logo {
+    position: unset;
+    margin-top: 50px;
+    width: 100px;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .row-footer {
+    height: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .row-footer {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row-footer {
+    height: 450px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .row-footer {
+    height: 500px;
+  }
+}
+
+.row-footer .row {
+  margin-top: 150px;
+  width: 100%;
+  bottom: 20px;
+}
+
+.row-footer .row .logo {
+  width: auto;
+  height: 60px;
+}
+
+.hiddenOnMob {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .hiddenOnMob {
+    display: block;
+  }
+  .hiddenOnMob .row {
+    margin-top: 9%;
+  }
+}
+
+@media (min-width: 576px) {
+  .hideOnDesk {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .hideOnDesk {
+    display: none;
+  }
+}
+
+/* image styling */
+.stars {
+  width: 72pt;
+  height: 10pt;
+  display: inline;
+}
+
+.titleKwab {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .titleKwab {
+    display: inline;
+    position: absolute;
+    top: 70px;
+    left: -30%;
+    width: 101%;
+    height: 140%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .titleKwab {
+    top: 70px;
+  }
+}
+
+@media (min-height: 429px) {
+  .titleKwab {
+    top: 210px;
+  }
+}
+
+@media (min-height: 640px) {
+  .titleKwab {
+    top: 50px;
+  }
+}
+
+@media (min-height: 1000px) {
+  .titleKwab {
+    top: -191px;
+  }
+}
+
+@media (min-height: 1280px) {
+  .titleKwab {
+    top: -460px;
+  }
+}
+
+@media (min-height: 1700px) {
+  .titleKwab {
+    top: -700px;
+  }
+}
+
+@media (min-height: 2000px) {
+  .titleKwab {
+    top: -1010px;
+  }
+}
+
+@media (min-height: 2400px) {
+  .titleKwab {
+    top: -1200px;
+  }
+}
