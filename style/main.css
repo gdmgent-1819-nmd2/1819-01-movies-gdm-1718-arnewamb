@@ -1,0 +1,365 @@
+/* Text  */
+h1, h2, h3, p {
+  font-family: helvetica;
+}
+
+.title {
+  color: white;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 5em;
+  line-height: 45px;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 0.75em;
+  line-height: 45px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 0.75rem;
+  display: inline-block;
+}
+
+p, li {
+  font-size: 0.75rem;
+  list-style: linear-gradient(135deg, #ee7097 0%, #f5a54d 100%);
+}
+
+.disTxt {
+  font-size: 0.90rem;
+}
+
+.right {
+  text-align: right;
+}
+
+.deskText {
+  padding: 0 20px;
+}
+
+.deskText .row h4 {
+  padding-left: 40px;
+}
+
+/* custom styling */
+body {
+  background-image: url("../img/backmob.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 769px) {
+  body {
+    background-image: url("../img/backweb.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+}
+
+body .main-container {
+  background-color: transparent;
+  margin-top: 10%;
+  /* row styling */
+}
+
+@media (min-width: 769px) {
+  body .main-container {
+    background-color: #F5F5F5;
+    padding: 5% 0;
+  }
+}
+
+body .main-container .titleRow {
+  margin-top: 200px;
+}
+
+body .main-container .titleRow .workLink {
+  padding-top: 40px;
+}
+
+body .main-container .row_movies {
+  margin-top: 250px;
+}
+
+body .main-container .row_movies .accordion {
+  margin-top: 150px;
+  /* card styling */
+}
+
+body .main-container .row_movies .accordion .card {
+  background-color: transparent;
+  border: none;
+}
+
+body .main-container .row_movies .accordion .card .desktopText {
+  width: 90%;
+}
+
+@media (min-width: 992px) {
+  body .main-container .row_movies .accordion .card .desktopText {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body .main-container .row_movies .accordion .card .desktopText {
+    width: 79%;
+  }
+}
+
+body .main-container .row_movies .accordion .card .card-img-top {
+  -webkit-border-radius: 18px 18px 0 0;
+  -moz-border-radius: 18px 18px 0 0;
+  -ms-border-radius: 18px 18px 0 0;
+  -o-border-radius: 18px 18px 0 0;
+  border-radius: 18px 18px 0 0;
+}
+
+@media (min-width: 769px) {
+  body .main-container .row_movies .accordion .card .card-img-top {
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    border-radius: 18px;
+  }
+}
+
+body .main-container .row_movies .accordion .card .card-title {
+  width: 100%;
+  display: inline-block;
+  padding-top: 0;
+}
+
+body .main-container .row_movies .accordion .card .card-header {
+  background-color: white;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 576px) {
+  body .main-container .row_movies .accordion .card .card-header {
+    display: visible;
+  }
+}
+
+@media (min-width: 769px) {
+  body .main-container .row_movies .accordion .card .card-header {
+    display: none;
+  }
+}
+
+body .main-container .row_movies .accordion .card .card-body {
+  background-color: white;
+  -webkit-border-radius: 0px 0px 18px 18px;
+  -moz-border-radius: 0px 0px 18px 18px;
+  -ms-border-radius: 0px 0px 18px 18px;
+  -o-border-radius: 0px 0px 18px 18px;
+  border-radius: 0px 0px 18px 18px;
+}
+
+@media (min-width: 576px) {
+  body .main-container .row_movies .accordion .card .card-body {
+    display: visible;
+  }
+}
+
+@media (min-width: 769px) {
+  body .main-container .row_movies .accordion .card .card-body {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  body .main-container .row_movies .itunes-buy {
+    position: relative;
+  }
+}
+
+@media (min-width: 769px) {
+  body .main-container .row_movies .itunes-buy {
+    position: unset;
+  }
+}
+
+body .main-container .row_movies .itunes-buy .itunes-buy-logo {
+  position: absolute;
+  bottom: 0;
+}
+
+@media (min-width: 769px) {
+  body .main-container .row_movies .itunes-buy .itunes-buy-logo {
+    position: unset;
+    margin-top: 50px;
+    width: 100px;
+    height: auto;
+  }
+}
+
+body .row-footer {
+  position: relative;
+  height: 240px;
+  margin-top: 50px;
+  background-image: url("../img/footer.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 769px) {
+  body .row-footer {
+    height: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  body .row-footer {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body .row-footer {
+    height: 450px;
+  }
+}
+
+@media (min-width: 1900px) {
+  body .row-footer {
+    height: 500px;
+  }
+}
+
+body .row-footer .row {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+}
+
+body .row-footer .row .logo {
+  width: auto;
+  height: 60px;
+}
+
+body .row-footer .row .name {
+  position: relative;
+}
+
+body .row-footer .row .name h4 {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+}
+
+.hiddenOnMob {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .hiddenOnMob {
+    display: block;
+  }
+  .hiddenOnMob .row {
+    margin-top: 9%;
+  }
+}
+
+@media (min-width: 576px) {
+  .hideOnDesk {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .hideOnDesk {
+    display: none;
+  }
+}
+
+/* image styling */
+.stars {
+  width: 72pt;
+  height: 10pt;
+  display: inline;
+}
+
+@media (min-width: 769px) {
+  .stars {
+    margin-bottom: 25px;
+  }
+}
+
+.titleKwab {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .titleKwab {
+    display: inline;
+    position: absolute;
+    top: 70px;
+    left: -30%;
+    width: 101%;
+    height: 140%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .titleKwab {
+    top: 70px;
+  }
+}
+
+@media (min-height: 429px) {
+  .titleKwab {
+    top: 210px;
+  }
+}
+
+@media (min-height: 640px) {
+  .titleKwab {
+    top: 50px;
+  }
+}
+
+@media (min-height: 1000px) {
+  .titleKwab {
+    top: -191px;
+  }
+}
+
+@media (min-height: 1280px) {
+  .titleKwab {
+    top: -460px;
+  }
+}
+
+@media (min-height: 1700px) {
+  .titleKwab {
+    top: -700px;
+  }
+}
+
+@media (min-height: 2000px) {
+  .titleKwab {
+    top: -1010px;
+  }
+}
+
+@media (min-height: 2400px) {
+  .titleKwab {
+    top: -1200px;
+  }
+}
